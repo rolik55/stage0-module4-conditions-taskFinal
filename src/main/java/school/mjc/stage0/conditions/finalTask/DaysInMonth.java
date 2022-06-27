@@ -34,6 +34,9 @@ public class DaysInMonth {
         if (isLeapYear && month == 2)
             days++;
 
-        System.out.println(days);
+        if (days != -1)
+            System.out.println(days);
+        else
+            System.out.println("invalid date");
     }
 }
